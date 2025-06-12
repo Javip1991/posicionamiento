@@ -15,10 +15,19 @@
     color: #9ad79b;
   }
 
+  .content {
+    position: relative;
+    top: 50px;
+    left: 0;
+    width: calc(100% - 250px);
+    height: calc(100% - 100px);
+    
+  }
+
   .sidebar {
     position: relative;
-    top: 100;
-    left: 1200px;
+    top: 10px;
+    left: 1250px;
     width: 250px;
     height: 100%;
     color: #9ad79b;
@@ -27,13 +36,12 @@
   }
 
   .features {
-    display: flex;
-    flex-direction: column;
+    position: relative;
+    top: 100px;
     align-items: center;
     justify-content: center;
     height: auto;
     text-align: center;
-    padding: 20px;
   }
 
   .footer {
